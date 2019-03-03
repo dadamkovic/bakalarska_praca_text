@@ -1,0 +1,13 @@
+float PID::giveOutput(float input, float target, float dt, float constrainI){
+    float output  = 0;
+    float Perror = target-input;
+    error_integral += Perror;
+    if(constrainI){
+        error_integral = constrain(error_integral,-constrainI,constrainI);
+    };
+    error_derivative = (Tf*error_derivative + (Perror - old_error))/(dt + Tf);       //implements filtering constant Tf
+    output = P*(Perror)+I*(error_integral)*dt+D*error_derivative;
+
+    old_error = Perror;
+    return output;
+}

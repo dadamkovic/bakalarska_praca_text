@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {slovak}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Zapojenie PID\relax }}{4}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \IeC {\v S}trukt\IeC {\'u}ra PID regul\IeC {\'a}tora\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Stavov\IeC {\'y} priestor - diagram\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Stavov\IeC {\'y} priestor - sp\IeC {\"a}tn\IeC {\'a} v\IeC {\"a}zba\relax }}{9}{figure.caption.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Model kolesa\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Model \IeC {\v s}asi\relax }}{15}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematick\IeC {\'e} zapojenie komponentov\relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Li-ion bat\IeC {\'e}ria\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sp\IeC {\'\i }nan\IeC {\'y} nap\IeC {\"a}\IeC {\v t}ov\IeC {\'y} regul\IeC {\'a}tor kompatibiln\IeC {\'y}\spacesylab  s LM2596\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Platforma\spacesylab  s motormi\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces H-most\IeC {\'\i }k komaptibiln\IeC {\'y}\spacesylab  s L298\relax }}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Servo motor HJ S3315D\relax }}{23}{figure.caption.23}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces HC05-Bluetooth modul\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces MPU6050\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Arduino MEGA\relax }}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Vizualiz\IeC {\'a}cia robota\spacesylab  v programe Fusion 360\relax }}{27}{figure.caption.27}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Balansuj\IeC {\'u}ci robot\spacesylab  s osaden\IeC {\'y}mi motormi\relax }}{28}{figure.caption.28}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Osadenie komponentov\relax }}{29}{figure.caption.29}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Sch\IeC {\'e}ma shieldu pre Arduino\relax }}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ovl\IeC {\'a}da\IeC {\v c} balansuj\IeC {\'u}ceho robota\relax }}{32}{figure.caption.32}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematick\IeC {\'e} zapojenie PID regul\IeC {\'a}torov\relax }}{33}{figure.caption.33}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Zn\IeC {\'a}zornenie z\IeC {\'a}vislosti medzi striedou\spacesylab  a nap\IeC {\"a}t\IeC {\'\i }m\relax }}{34}{figure.caption.34}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Podrobn\IeC {\'a} sch\IeC {\'e}ma RS robota\relax }}{37}{figure.caption.36}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Sch\IeC {\'e}ma shieldu pre Arduino\relax }}{II}{figure.caption.41}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Diagram programu.\relax }}{III}{figure.caption.42}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces V\IeC {\'y}stup\spacesylab  z kan\IeC {\'a}lov enkod\IeC {\'e}ra\relax }}{IV}{figure.caption.43}

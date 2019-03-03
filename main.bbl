@@ -1,0 +1,147 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{SKRIPTA}{book}{}
+      \name{author}{4}{}{%
+        {{hash=447240e8f125e4fdee66a93555dcef4c}{%
+           family={Ing.\bibnamedelimi Zdislav\bibnamedelima Exnar},
+           familyi={I\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim E\bibinitperiod},
+           prefix={doc.},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=f58a31c2a1fd29859e47f99ce081f3c5}{%
+           family={CSc.},
+           familyi={C\bibinitperiod}}}%
+        {{hash=b949b11a09b05690ecd37dc4ed6b9dcb}{%
+           family={Bubeníkova},
+           familyi={B\bibinitperiod},
+           given={Ing.\bibnamedelimi Emília},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=34cc835face3d92c6a900312e4a6ede8}{%
+           family={Ing.\bibnamedelimi Marcela\bibnamedelima Koščová},
+           familyi={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={CSc.},
+           giveni={C\bibinitperiod},
+           prefix={doc.},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Žilina}%
+      }
+      \list{publisher}{1}{%
+        {Žilinská univerzita}%
+      }
+      \strng{namehash}{370d18667f2f149c8f1a7d4dfdec3696}
+      \strng{fullhash}{8d1af175ed093b1a6e7016fc1df4022f}
+      \strng{bibnamehash}{370d18667f2f149c8f1a7d4dfdec3696}
+      \strng{authorbibnamehash}{370d18667f2f149c8f1a7d4dfdec3696}
+      \strng{authornamehash}{370d18667f2f149c8f1a7d4dfdec3696}
+      \strng{authorfullhash}{8d1af175ed093b1a6e7016fc1df4022f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{80-8070-617-4}
+      \field{pagetotal}{119}
+      \field{title}{Teória automatického riadenia 1 Lineárne systémy riadenia}
+      \field{year}{2006}
+    \endentry
+    \entry{Oochi2003}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=90b4a4f0a63eb2322d7aca34d0c6a44a}{%
+           family={Ooi},
+           familyi={O\bibinitperiod},
+           given={Rich\bibnamedelima Chi},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \name{supervisor}{1}{}{%
+        {{hash=8ef69ed2cce8d9d1735f63f7a1b8eea1}{%
+           family={A/Prof.\bibnamedelimi Thomas\bibnamedelima Bräunl},
+           familyi={A\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Prof.\bibnamedelimi Jie\bibnamedelima Pan},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The University of Western Australia - School of Mechanical Engineering}%
+      }
+      \list{location}{1}{%
+        {Perth}%
+      }
+      \strng{namehash}{90b4a4f0a63eb2322d7aca34d0c6a44a}
+      \strng{fullhash}{90b4a4f0a63eb2322d7aca34d0c6a44a}
+      \strng{bibnamehash}{90b4a4f0a63eb2322d7aca34d0c6a44a}
+      \strng{authorbibnamehash}{90b4a4f0a63eb2322d7aca34d0c6a44a}
+      \strng{authornamehash}{90b4a4f0a63eb2322d7aca34d0c6a44a}
+      \strng{authorfullhash}{90b4a4f0a63eb2322d7aca34d0c6a44a}
+      \strng{supervisorbibnamehash}{8ef69ed2cce8d9d1735f63f7a1b8eea1}
+      \strng{supervisornamehash}{8ef69ed2cce8d9d1735f63f7a1b8eea1}
+      \strng{supervisorfullhash}{8ef69ed2cce8d9d1735f63f7a1b8eea1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Balancing a Two-Wheeled Autonomous Robot}
+      \field{type}{mathesis}
+      \field{year}{2003}
+    \endentry
+    \entry{TWIP}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=8bde5defc5027fe0fe3014d33586419b}{%
+           family={Mahmoud\bibnamedelima Khaled},
+           familyi={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={M.Shaaban\bibnamedelima Ibraheem},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           suffix={Aly\bibnamedelima Omar},
+           suffixi={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \name{supervisor}{1}{}{%
+        {{hash=892903264a40691407b74bb4713151e5}{%
+           family={M.Moness},
+           familyi={M\bibinitperiod},
+           given={Prof.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Minia University - Faculty of Engineering Computers-Systems Dept}%
+      }
+      \list{location}{1}{%
+        {Minia}%
+      }
+      \strng{namehash}{8bde5defc5027fe0fe3014d33586419b}
+      \strng{fullhash}{8bde5defc5027fe0fe3014d33586419b}
+      \strng{bibnamehash}{8bde5defc5027fe0fe3014d33586419b}
+      \strng{authorbibnamehash}{8bde5defc5027fe0fe3014d33586419b}
+      \strng{authornamehash}{8bde5defc5027fe0fe3014d33586419b}
+      \strng{authorfullhash}{8bde5defc5027fe0fe3014d33586419b}
+      \strng{supervisorbibnamehash}{892903264a40691407b74bb4713151e5}
+      \strng{supervisornamehash}{892903264a40691407b74bb4713151e5}
+      \strng{supervisorfullhash}{892903264a40691407b74bb4713151e5}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Balancing a Two Wheeled Robot}
+      \field{type}{mathesis}
+      \field{year}{2009}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
