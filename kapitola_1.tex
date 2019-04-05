@@ -27,7 +27,7 @@ V tejto časti práce zhrnieme základné poznatky o niektorých vybraných typo
 
 \ac{PID} regulátor je v praxi najčastejšie používaný regulátor, pričom uplatnenie nachádza  pri riadení veličín ako sú napríklad: teplota, tlak, prietok, poloha, atď. Medzi jeho výhodné vlastnosti patrí najmä robustnosť, jednoduchosť implementácie a možnosť manuálneho naladenia bez potreby použitia zložitých výpočtových techník.  Schematické znázornenie jeho zapojenia v ovládanej sústave je na \figurename~\ref{fig:PIDSchematic}
 
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[width=8cm]{PIDSchematic}
 \caption{Zapojenie PID}
@@ -48,7 +48,6 @@ Samotný PID regulátor pozostáva z troch častí, ktoré mu zároveň dávajú
 Vychádzajúc z blokovej schémy na \figurename~\ref{fig:PIDComplete} môžeme podrobne opísať súčasti, z ktorých pozostáva \ac{PID}.
 
 \textbf {Proporčný člen} pozostáva zo zosilňovača, ktorý má na svojom výstupe Kp násobok chyby $e(t)$ . V praxi to teda znamená, že ak je reálny výstup regulovanej sústavy voči požiadavke značne veľký $\rightarrow$ chyba je veľká a záporná, teda proporčný člen reaguje veľkým záporným výstupom. Tento následne zníži veľkosť výstupu a teda aj odchýlku od požadovanej hodnoty. Matematicky je možné vyjadriť výstup proporčného člena ako:
-
 \begin{equation}
 u_p (t)= K_p e( t )
 \end{equation}
@@ -70,7 +69,6 @@ u_i (t)= K_i \int_0^e \! e( t ) \, \mathrm{d}t
 \end{equation}
 kde $u_i(t)$ predstavuje výstup integračného člena v čase $t$. 
 Prenosová funkcia je:
-
 \begin{equation}
 \dfrac{U_i(s)}{E(s)}  = K_i\dfrac{ 1}{s} 
 \end{equation}
@@ -79,7 +77,6 @@ kde $U_i (s)$ je výstup vyjadrený v Laplaceovej rovine.
 \textbf{Derivačný člen} v základnom zapojení pracuje so zmenou chyby za čas dt (ten sa v ideálnom prípadne limitne blíži k 0). Výhodnou vlastnosťou tohto člena teda je, že pri náhlych zmenách chyby je schopný pružne reagovať veľkou korekciou na výstupe a pri postupnom, pomalom narastaní chyby adekvátne malou korekciou. Zmenou konštanty $Kd$ vieme korigovať silu tejto reakcie na zmenu chyby.
 
 Matematické vyjadrenie derivačného člena je:
-
 \begin{equation}
 U_d (t) = K_d\dfrac{ de(t) }{ dt }
 \end{equation}
@@ -114,7 +111,7 @@ Na samotné naladenie \ac{PID} regulátora je možné použiť viacero metód, m
 
 \begin{itemize}
 \item \textbf{Ad–hoc metóda} - veľmi primitívnou, ale pre jednoduché problémy sústavy dostačujúcou metódou je zvolenie $K_p$, $K_i$, $K_d$ parametrov náhodným dosadzovaním a pozorovaním zmien reakcií riadenej sústavy
-\item \textbf{Ziegler-Nicholsová metóda} - pozostáva z vyradenia I, D zložiek a nájdenia takej hodnoty Kp, pri ktorej systém dosiahne stav na hranici stability, t.j. stavu, v ktorom sústava osciluje okolo stabilného stavu. V tomto stave odmeriame periódu oscilácií. Následným odčítaním hodnôt$K_p$, $K_i$, $K_d$ z tabuľky \ref{tab:Zieger-Nichols}, prevzatej zo skrípt\cite{SKRIPTA} získame naladený PID.
+\item \textbf{Ziegler-Nicholsová metóda} - pozostáva z vyradenia I, D zložiek a nájdenia takej hodnoty Kp, pri ktorej systém dosiahne stav na hranici stability, t.j. stavu, v ktorom sústava osciluje okolo stabilného stavu. V tomto stave odmeriame periódu oscilácií. Následným odčítaním hodnôt$K_p$, $K_i$, $K_d$ z tabuľky \ref{tab:Ziegler-Nichols}, prevzatej zo skrípt\cite{SKRIPTA} získame naladený PID.
 \item \textbf{Vytvorením modelu sústavy} - po nájdení matematického modelu regulovanej 	sústavy je možné vytvoriť sústavu diferenciálnych rovníc, ktoré popíšu správanie celej sústavy so zaradeným regulátorom. Tento matematický model je možné následne podrobiť analýze pomocou kritérií stability napr. Routh-	Schurovým alebo Hurwitzovým a takto nájsť  $K_p$ , $K_i$ , $K_d$, pre ktoré bude sústava stabilná. Nevýhodou tohoto postupu je ale zvýšená náročnosť procesu ladenia, ale aj nutnosť dostatočne presne poznať štruktúru sústavy na 	vytvorenie jej modelu.  
 \end{itemize}
 
@@ -123,13 +120,11 @@ Na samotné naladenie \ac{PID} regulátora je možné použiť viacero metód, m
 Pred opisom samotného princípu fungovania LQR, považujeme za potrebné uviesť čitateľa do problematiky reprezentácie systémov v tzv. stavovom priestore, nakoľko regulátor LQR pracuje práve s touto reprezentáciou systému.
 
 Pri reprezentácií časovo invariatnej sústavy, teda sústavy, ktorej vlastnosti sa časom nemenia, v stavovom priestore pracujeme vo všeobecnosti z výrazmi tvaru:
-
 \begin{equation}
 \dot {\textbf{x}}(t) = Ax(t) + Bu(t) \linebreak
 \textbf {y}(t) = Cx(t) + Dy(t)  
 \end{equation}
-\newpage
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[width=9cm]{stavovyPriestorDiagram}
 \caption{Stavový priestor - diagram}
@@ -149,19 +144,16 @@ pričom platí, že m, n, r $\subset$ N.
 
 Výhody takejto reprezentácie sústav sa prejavia hlavne pri MIMO sústavách (sústavách ktoré majú viacero vstupov a výstupov). S využitím maticovej a vektorovej reprezentácie je možné aj veľmi komplexné systémy vyjadriť len pomocou týchto dvoch rovníc. Maticová reprezentácia je naviac ešte aj veľmi vhodná pre spracovanie s využitím softvérových nástrojov ako napr. Matlab.
 
-Proces samotného vyjadrenia stavovej reprezentácie zo systému diferenciálnych rovníc je mimo rozsah tejto práce, čitateľ sa však s ním môže oboznámiť v ...
-
-\todo[inline]{doplniť odkazy}
+Proces samotného vyjadrenia stavovej reprezentácie zo systému diferenciálnych rovníc je mimo rozsah tejto práce, čitateľ sa však s ním môže oboznámiť napr. v \cite{ContSys}.
 
 Po nájdení reprezentácie v stavovom priestore a overení, že daný systém je kontrolovateľný, môžeme z matice A vyjadriť póly stavovej matice sústavy. To je možné napr. výpočtom z rovnice:
-
 \begin{equation}
 \mid pE - A \mid = 0 
 \end{equation}
 
 Kde E je jednotková matica a p vektor pólov matice A.
 
-	Pripomenieme, že pre stabilné systémy platí, že všetky reálne časti ich pólov sú záporné. Tento poznatok je možné účinne využiť v prípade nestabilných systémov a zaradiť do sústavy vhodne zvolený regulačný vektor K, ktorý nám zavedením spätnej väzby do sústavy umožní zmeniť pôvodné póly na ľubovoľné, nami zvolené, stabilné $(Re{pi}<0)$ póly. 
+Pripomenieme, že pre stabilné systémy platí, že všetky reálne časti ich pólov sú záporné. Tento poznatok je možné účinne využiť v prípade nestabilných systémov a zaradiť do sústavy vhodne zvolený regulačný vektor K, ktorý nám zavedením spätnej väzby do sústavy umožní zmeniť pôvodné póly na ľubovoľné, nami zvolené, stabilné $(Re{pi}<0)$ póly. 
 
 Reprezentácia takejto sústavy v stavovom priestore bude mať následne tvar:
 \begin{equation}
@@ -172,10 +164,9 @@ u( t ) = -Kx
 \dot{\textbf{x}}(t) = Ax(t) + B(-Kx(t))
 \label{eq:xDot}
 \end{equation}
-
 \begin{figure}
 \centering
-\includegraphics[width=9cm]{stavovyPriestorSV}
+\includegraphics[width=13cm]{stavovyPriestorSV}
 \caption{Stavový priestor - spätná väzba}
 \label{fig:stavovyPriestorSV}
 \end{figure}
@@ -185,7 +176,6 @@ u( t ) = -Kx
 Vyššie sme spomínali, že vektor K je možné zvoliť tak aby boli dosiahnuté požadované póly, problémom ale je určiť aké póly sú pre danú sústavu ideálne. Pri zvolení príliš negatívnych pólov bude regulátor natoľko agresívny, že ho nebude možné v praxi realizovať a naopak, pokiaľ nebudú póly dostatočne záporné, bude regulácia trvať pridlho na to aby bola praktická.  Práve tu prichádza ako riešenie do úvahy regulátor LQR, ktorý je využitím kvadratickej „cenovej“ funkcie schopný prideliť každej sledovanej veličine na výstupe „váhu“. Táto váha určí nakoľko budú pre regulátor dôležité zmeny jednotlivých veličín. LQR následne zvolí K také, aby regulátor pracoval podľa požiadaviek.
 
 Ako vyplýva z názvu regulátora, pre svoju činnosť využíva princíp minimalizácie cenovej funkcie J, ktorá je pre spojitý a konečný časový úsek definovaná ako:
-
 \begin{equation}
 J = \dfrac {1} {2} x^T (T)P_1 x(T)  + \dfrac {1} {2} \int_0^T \! ( x^T Qx + u^T Ru) \, \mathrm{d}t 
 \label{eq:cenovaFunkcia}
@@ -193,7 +183,6 @@ J = \dfrac {1} {2} x^T (T)P_1 x(T)  + \dfrac {1} {2} \int_0^T \! ( x^T Qx + u^T 
 
 kde $Q \geq 0$; $R > 0$; $P1 \geq 0$ sú symetrické, kladné matice. $Q$,$ R$ predstavujú váhy, ktoré sú priradené sledovaným veličinám.
 Riešením rovnice \figurename~\ref{eq:cenovaFunkcia} je $P(t)$, nájdené vyriešením tzv. aritmetickej Riccatiho rovnice :
-
 \begin{equation}
 - \dot {P} = PA + A^T P - PBR^{-1} B^T P + Q;	\newline
 P( T ) = P_1
@@ -220,7 +209,7 @@ kde:
 
 \quad $d$ = poloha základne robota 
 
-\quad $\dot{d}$ rýchlosť  základne robota 
+\quad $\dot{d}$ = rýchlosť  základne robota 
 
 \quad $\theta$ = uhol natočenia šasi robota 
 
@@ -238,19 +227,19 @@ w_1 & 0 & 0 & 0 \\
 \newline
 Predpokladajme, že maximálne dovolené odchýlky od požadovanej hodnoty sú:
 \begin{itemize}
-\item $0,005 m $pre polohu základne → $w_1$ = $(0,005)^{-2}$
-\item $0,0005 m.s^-1$ pre rýchlosť základne → $w_2$ = $(0,0005)^{-2}$
-\item $0,02 rad$ pre uhlovú odchýlku šasi → $w_3$ = $(0,02)^{-2}$
-\item $0,0001 rad.s^{-1}$ pre uhlovú rýchlosť šasi → $w_4$ = $(0,0001)^{-2}$
+\item $0,005~m $pre polohu základne → $w_1$ = $(0,005)^{-2}$
+\item $0,0005~m.s^{-1}$ pre rýchlosť základne → $w_2$ = $(0,0005)^{-2}$
+\item $0,02~rad$ pre uhlovú odchýlku šasi → $w_3$ = $(0,02)^{-2}$
+\item $0,0001~rad.s^{-1}$ pre uhlovú rýchlosť šasi → $w_4$ = $(0,0001)^{-2}$
 \end{itemize}
 
-Po určení Q by sme podobným spôsobom postupovali aj pre R až kým by sme našli hodnoty, ktoré pre sústavu fungujú uspokojivo. 
+Po určení $Q$ by sme podobným spôsobom postupovali aj pre $R$ až kým by sme našli hodnoty, ktoré pre sústavu fungujú uspokojivo. 
 
 \section{Zhrnutie a výber regulátora}
-Medzi značné výhody PID regulátora patrí jeho jednoduchá implementácia a nízka náročnosť na výpočtový výkon realizačného hardvéru. Ladenie je možné ako exaktnými, matematickými metódami tak aj metódami založenými na empiricky zozbieraných dátach. Nevýhodou PID je ale,  že jeho využitie je obmedzené na SISO systémy, t.j. systémy s jednou vstupnou a jednou výstupnou veličinou – čo napríklad v našom prípade nezaručí stabilizáciu polohy aj riadenie robota súčastne. Tento nedostatok je ale možné prekonať použitím viacerých vhodne kombinovaných PID regulátorov, čo však zvyšuje náročnosť ich správneho naladenia.
+Medzi značné výhody PID regulátora patrí jeho jednoduchá implementácia a nízka náročnosť na výpočtový výkon realizačného hardvéru. Ladenie je možné ako exaktnými, matematickými metódami tak aj metódami založenými na empiricky zozbieraných dátach. Nevýhodou PID je ale,  že jeho využitie je obmedzené na \ac{SISO} systémy, t.j. systémy s jednou vstupnou a jednou výstupnou veličinou – čo napríklad v našom prípade nezaručí stabilizáciu polohy aj riadenie robota súčastne. Tento nedostatok je ale možné prekonať použitím viacerých vhodne kombinovaných PID regulátorov, čo však zvyšuje náročnosť ich správneho naladenia.
 
-Hlavnou výhodou využitia LQR na reguláciu sústavy je, možnosť riadiť jediným regulátorom všetky nami sledované výstupné veličiny, čim je možné dosiahnuť veľmi komplexné riadenie robota. Pri návrhu regulátora je taktiež možné zvoliť, ktoré sledované veličiny sú pre nás najdôležitejšie. Cenou za takúto presnosť riadenia je ale výrazne vyššia náročnosť výpočtov pri ladení regulátora ako aj nutnosť pracovať s matematickým modelom sústavy. Komplikovanejšie výpočty taktiež spôsobia, že v porovnaní s PID bude dĺžka trvania riadiacej slučky pri použití totožného hárdveru dlhšia čo môže viesť k zhoršeniu vlastností robota.
+Hlavnou výhodou využitia LQR na reguláciu sústavy je, možnosť riadiť jediným regulátorom všetky nami sledované výstupné veličiny, čím je možné dosiahnuť vcelku komplexné riadenie robota. Pri návrhu regulátora je taktiež možné zvoliť, ktoré sledované veličiny sú pre nás najdôležitejšie. Cenou za takúto presnosť riadenia je ale výrazne vyššia náročnosť výpočtov pri ladení regulátora ako aj nutnosť pracovať s matematickým modelom sústavy. Komplikovanejšie výpočty taktiež spôsobia, že v porovnaní s PID bude dĺžka trvania riadiacej slučky pri použití totožného hárdveru potenciálne značne dlhšia čo môže viesť k zhoršeniu vlastností robota.
 
 Po zohľadnení vlastností oboch regulátorov sme sa rozhodli pre použitie PID regulátora. Napriek niektorým jeho nevýhodným vlastnostiam bola jednoduchosť jeho implementácie rozhodujúcim faktorom pri našej voľbe. Viacero prác už demonštrovalo uspokojivé výsledky pri použití PID na riadenie balansujúceho robota a teda vieme, že ide o regulátor dostačujúci na naše účely a na rozdiel od LQR má autor s jeho používaním predošlé skúsenosti. 
 
-Kvôli neschopnosti PID riadiť viacero výstupov zároveň budeme pri našej realizácií pracovať s viacerými PID regulátormi zaradenými do kaskády. V takomto zapojení sa zvyčajne uvažuje používa rozdielna dĺžka riadiacich slučiek - teda  rozdielne dt pre jednotlivé PID. Viac sa danou problematikou budeme zaoberať priamo v kapitole venovanej našej implementácií regulátora.
+Kvôli neschopnosti PID riadiť viacero výstupov zároveň budeme pri našej realizácií pracovať s viacerými PID regulátormi zaradenými do kaskády. V takomto zapojení sa zvyčajne používa rozdielna dĺžka riadiacich slučiek - teda  rozdielne dt pre jednotlivé PID. Viac sa danou problematikou budeme zaoberať priamo v kapitole venovanej našej implementácií regulátora.
