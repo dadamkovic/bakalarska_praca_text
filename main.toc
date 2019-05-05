@@ -1,37 +1,46 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {slovak}{}
-\contentsline {chapter}{Zoznam skratiek}{vii}{chapter*.5}
-\contentsline {chapter}{Slovn\IeC {\'\i }k pojmov}{viii}{chapter*.7}
+\contentsline {chapter}{Zoznam skratiek}{viii}{chapter*.5}
 \contentsline {chapter}{\numberline {1}\IeC {\'U}vod}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Preh\IeC {\v l}ad existuj\IeC {\'u}cich met\IeC {\'o}d riadenia pre Dvojkolesov\IeC {\'e} balansuj\IeC {\'u}ce roboty}{2}{chapter.2}
+\contentsline {chapter}{\numberline {2}Preh\IeC {\v l}ad existuj\IeC {\'u}cich met\IeC {\'o}d riadenia pre dvojkolesov\IeC {\'e} balansuj\IeC {\'u}ce roboty}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Line\IeC {\'a}rne regul\IeC {\'a}tory}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}PID}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}LQR}{7}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Zhrnutie\spacesylab  a v\IeC {\'y}ber regul\IeC {\'a}tora}{11}{section.2.2}
-\contentsline {chapter}{\numberline {3}Anal\IeC {\'y}za dynamiky balansuj\IeC {\'u}ceho robota}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Model kolesa}{13}{section.3.1}
+\contentsline {chapter}{\numberline {3}Anal\IeC {\'y}za dynamiky balansuj\IeC {\'u}ceho robota}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Model kolesa}{12}{section.3.1}
 \contentsline {section}{\numberline {3.2}Model \IeC {\v s}asi}{15}{section.3.2}
-\contentsline {chapter}{\numberline {4}N\IeC {\'a}vrh\spacesylab  a realiz\IeC {\'a}cia kon\IeC {\v s}trukcie dvojkolesov\IeC {\'e}ho robota}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Zoznam pou\IeC {\v z}it\IeC {\'y}ch komonentov}{19}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Nap\IeC {\'a}janie}{19}{subsection.4.1.1}
-\contentsline {subsubsection}{Bat\IeC {\'e}ria}{19}{subsection.4.1.1}
-\contentsline {subsubsection}{Nap\IeC {\"a}\IeC {\v t}ov\IeC {\'y} regul\IeC {\'a}tor pre logick\IeC {\'e} obvody}{20}{figure.caption.17}
-\contentsline {subsection}{\numberline {4.1.2}Pohon}{20}{subsection.4.1.2}
-\contentsline {subsubsection}{Motory}{21}{subsection.4.1.2}
-\contentsline {subsubsection}{H-most\IeC {\'\i }k}{22}{figure.caption.20}
-\contentsline {subsubsection}{Servo motor}{22}{figure.caption.21}
-\contentsline {subsection}{\numberline {4.1.3}Komunik\IeC {\'a}cia - Bluetooth modul}{23}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Senzory}{24}{subsection.4.1.4}
-\contentsline {subsubsection}{MPU 6050}{24}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Riadiaci po\IeC {\v c}\IeC {\'\i }ta\IeC {\v c} - Arduino MEGA}{25}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}N\IeC {\'a}vrh\spacesylab  a v\IeC {\'y}roba \IeC {\v s}asi robota}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}N\IeC {\'a}vrh\spacesylab  a v\IeC {\'y}roba ovl\IeC {\'a}da\IeC {\v c}a robota}{30}{section.4.3}
-\contentsline {chapter}{\numberline {5}N\IeC {\'a}vrh\spacesylab  a implement\IeC {\'a}cia riadiaceho syst\IeC {\'e}mu robota.}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}\IeC {\v S}trukt\IeC {\'u}ra RS robota}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}Implement\IeC {\'a}cia riadiaceho syst\IeC {\'e}mu}{35}{section.5.2}
-\contentsline {chapter}{Zoznam pou\IeC {\v z}itej literat\IeC {\'u}ry}{38}{chapter*.38}
-\contentsline {part}{Pr\IeC {\'\i }lohov\IeC {\'a} \IeC {\v c}as\IeC {\v t}}{40}{section*.39}
-\contentsline {chapter}{\numberline {A}Zieger-Nicholsova tabu\IeC {\v l}ka}{I}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sch\IeC {\'e}ma shieldu}{II}{appendix.B}
-\contentsline {chapter}{\numberline {C}Diagram programu}{III}{appendix.C}
-\contentsline {chapter}{\numberline {D}V\IeC {\'y}stup\spacesylab  z enkod\IeC {\'e}ra}{IV}{appendix.D}
+\contentsline {chapter}{\numberline {4}N\IeC {\'a}vrh\spacesylab  a realiz\IeC {\'a}cia kon\IeC {\v s}trukcie dvojkolesov\IeC {\'e}ho robota}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Zoznam pou\IeC {\v z}it\IeC {\'y}ch komponentov}{17}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Nap\IeC {\'a}janie}{18}{subsection.4.1.1}
+\contentsline {subsubsection}{Bat\IeC {\'e}ria}{18}{subsection.4.1.1}
+\contentsline {subsubsection}{Nap\IeC {\"a}\IeC {\v t}ov\IeC {\'y} regul\IeC {\'a}tor pre logick\IeC {\'e} obvody}{19}{table.caption.13}
+\contentsline {subsection}{\numberline {4.1.2}Pohon}{19}{subsection.4.1.2}
+\contentsline {subsubsection}{Motory}{19}{subsection.4.1.2}
+\contentsline {subsubsection}{H-most\IeC {\'\i }k}{20}{figure.caption.15}
+\contentsline {subsubsection}{Servomotor}{21}{figure.caption.16}
+\contentsline {subsection}{\numberline {4.1.3}Komunik\IeC {\'a}cia - Bluetooth modul}{22}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Senzory}{23}{subsection.4.1.4}
+\contentsline {subsubsection}{MPU 6050}{23}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Riadiaci po\IeC {\v c}\IeC {\'\i }ta\IeC {\v c} - Arduino MEGA}{24}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}N\IeC {\'a}vrh\spacesylab  a v\IeC {\'y}roba \IeC {\v s}asi robota}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}V\IeC {\'y}sledky mont\IeC {\'a}\IeC {\v z}e\spacesylab  a zhodnotenie n\IeC {\'a}vrhu}{28}{section.4.3}
+\contentsline {section}{\numberline {4.4}N\IeC {\'a}vrh\spacesylab  a v\IeC {\'y}roba ovl\IeC {\'a}da\IeC {\v c}a robota}{29}{section.4.4}
+\contentsline {chapter}{\numberline {5}N\IeC {\'a}vrh\spacesylab  a implement\IeC {\'a}cia riadiaceho syst\IeC {\'e}mu robota}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}\IeC {\v S}trukt\IeC {\'u}ra RS robota}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Implement\IeC {\'a}cia riadiaceho syst\IeC {\'e}mu}{34}{section.5.2}
+\contentsline {section}{\numberline {5.3}Ovl\IeC {\'a}danie pohybu robota}{37}{section.5.3}
+\contentsline {section}{\numberline {5.4}Podporn\IeC {\'e} met\IeC {\'o}dy riadenia}{39}{section.5.4}
+\contentsline {chapter}{\numberline {6}Laborat\IeC {\'o}rne overenie funk\IeC {\v c}nosti}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Z\IeC {\'a}kladn\IeC {\'e} parametre robota}{41}{section.6.1}
+\contentsline {section}{\numberline {6.2}Parametre robota pri balansovan\IeC {\'\i } na mieste}{42}{section.6.2}
+\contentsline {chapter}{\numberline {7}Zhrnutie dosiahnut\IeC {\'y}ch v\IeC {\'y}sledkov}{44}{chapter.7}
+\contentsline {chapter}{Zoznam pou\IeC {\v z}itej literat\IeC {\'u}ry}{45}{chapter*.33}
+\contentsline {part}{Pr\IeC {\'\i }lohov\IeC {\'a} \IeC {\v c}as\IeC {\v t}}{48}{section*.34}
+\contentsline {chapter}{\numberline {A}Met\IeC {\'o}da - Ziegler-Nichols}{I}{appendix.A}
+\contentsline {chapter}{\numberline {B}Arduino shield}{II}{appendix.B}
+\contentsline {chapter}{\numberline {C}Sch\IeC {\'e}ma shieldu}{III}{appendix.C}
+\contentsline {chapter}{\numberline {D}Sch\IeC {\'e}ma H-most\IeC {\'\i }ka}{IV}{appendix.D}
+\contentsline {chapter}{\numberline {E}Diagram programu}{V}{appendix.E}
+\contentsline {chapter}{\numberline {F}V\IeC {\'y}stup\spacesylab  z enkod\IeC {\'e}ra}{VI}{appendix.F}
+\contentsline {chapter}{\numberline {G}Sn\IeC {\'\i }manie pr\IeC {\'u}du}{VII}{appendix.G}

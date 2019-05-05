@@ -1942,8 +1942,30 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">SKRIPTA</bcf:citekey>
-    <bcf:citekey order="2">Oochi2003</bcf:citekey>
-    <bcf:citekey order="3">TWIP</bcf:citekey>
+    <bcf:citekey order="2">ContSys</bcf:citekey>
+    <bcf:citekey order="3">LQRpaper</bcf:citekey>
+    <bcf:citekey order="4">Oochi2003</bcf:citekey>
+    <bcf:citekey order="5">TWIP</bcf:citekey>
+    <bcf:citekey order="6">VariCore</bcf:citekey>
+    <bcf:citekey order="7">VariCore</bcf:citekey>
+    <bcf:citekey order="8">LM2596</bcf:citekey>
+    <bcf:citekey order="9">MP1584</bcf:citekey>
+    <bcf:citekey order="10">MP1584</bcf:citekey>
+    <bcf:citekey order="11">wheelBase</bcf:citekey>
+    <bcf:citekey order="12">wheelBase</bcf:citekey>
+    <bcf:citekey order="13">hBridge</bcf:citekey>
+    <bcf:citekey order="14">hBridge</bcf:citekey>
+    <bcf:citekey order="15">servoMotor</bcf:citekey>
+    <bcf:citekey order="16">servoMotor</bcf:citekey>
+    <bcf:citekey order="17">bluetoothModule</bcf:citekey>
+    <bcf:citekey order="18">bluetoothModule</bcf:citekey>
+    <bcf:citekey order="19">GY-521pic</bcf:citekey>
+    <bcf:citekey order="20">GY-521pic</bcf:citekey>
+    <bcf:citekey order="21">MPU6050datasheet</bcf:citekey>
+    <bcf:citekey order="22">ATMEGA328</bcf:citekey>
+    <bcf:citekey order="23">ATMEGA2560</bcf:citekey>
+    <bcf:citekey order="24">arduinoMEGA</bcf:citekey>
+    <bcf:citekey order="25">arduinoMEGA</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

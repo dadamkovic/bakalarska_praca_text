@@ -1,14 +1,14 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'main.blg'
-[21] biber:313> INFO - === Sun Mar  3, 2019, 22:23:49
-[39] Biber.pm:371> INFO - Reading 'main.bcf'
-[89] Biber.pm:857> INFO - Found 3 citekeys in bib section 0
-[100] Biber.pm:3981> INFO - Processing section 0
-[110] Biber.pm:4154> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[111] bibtex.pm:1468> INFO - LaTeX decoding ...
-[116] bibtex.pm:1294> INFO - Found BibTeX data source 'bibliography.bib'
-[156] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[156] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[156] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sk-SK'
-[159] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[160] bbl.pm:720> INFO - Output to main.bbl
+[22] biber:313> INFO - === Sat May  4, 2019, 15:49:23
+[40] Biber.pm:371> INFO - Reading 'main.bcf'
+[93] Biber.pm:857> INFO - Found 17 citekeys in bib section 0
+[105] Biber.pm:3981> INFO - Processing section 0
+[113] Biber.pm:4154> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[115] bibtex.pm:1468> INFO - LaTeX decoding ...
+[126] bibtex.pm:1294> INFO - Found BibTeX data source 'bibliography.bib'
+[183] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[183] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[183] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sk-SK'
+[195] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[199] bbl.pm:720> INFO - Output to main.bbl

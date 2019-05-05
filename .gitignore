@@ -2,3 +2,6 @@ auxfiles/*
 aux_*
 *-converted-to.pdf
 *.bak
+*.log
+*.dbx
+*.bcf

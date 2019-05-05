@@ -7,7 +7,7 @@
 \usepackage{float}
 \usepackage{array}
 \usepackage{amsmath} 
-
+ 
 %-------------------------------------------------------
 %             Abbreviation and term database
 %-------------------------------------------------------
@@ -35,7 +35,7 @@
 \keywordsName{Kľúčové slová}
 \keywordsNameSecLang{Keywords}
 
-\faculty{Elektrotechnická fakulta}
+\faculty{Fakulta elektrotechniky a informačných technológií}
 \department{Katedra riadiacich a informačných systémov}
 
 % školiace pracovisko, ak je iné než katedra:
@@ -47,34 +47,32 @@
 \facultyshort{FEIT}
 \location{Žilina}
 
-\doctype{Bakalársky projekt}
-\docid{Evidenčné číslo práce}
-\supervisor{Ing. Dušan Nemec, PhD}
-%Meno konzultanta (ak existuje):
-\consultant{Titul, konzultant práce}
+\doctype{Bakalárska práca}
+\docid{28260220191001}
+\supervisor{Ing. Dušan Nemec, PhD.}
 
 \academicyear{2018/2019} % akademický rok
 \submissionyear{2019} % rok odovzdania práce
 % Študijný program:
-%\studyprogramme{Riadenie procesov}
+\studyprogramme{Automatizácia}
 % Študijný odbor:
 \fieldofstudy{5.2.14 Automatizácia}
 
 % Abstrakt v hlavnom jazyku
 \abstract{Abstrakt}{
-Abstrakt obsahuje informáciu o cieľoch práce, jej stručnom obsahu a v závere abstraktu sa charakterizuje splnenie cieľa, výsledky a význam celej práce. Abstrakt sa píše súvisle ako jeden odsek a jeho rozsah je spravidla 100 až 500 slov.
+Cieľom tejto práce bolo navrhnúť, skonštruovať a otestovať robota schopného trvale balansovať pri pohybe na dvoch kolesách. Práca opisuje postup práce pri výrobe robota, podrobný opis riadiaceho regulátora a ukážku jeho implementácie v jazyku C++. Výsledkom práce bol robot schopný autonómne balansovať na mieste a taktiež pohybovať sa v priestore podľa požiadaviek operátora. Robot môže slúžiť pri výučbe ako praktická ukážka implementácie PID regulátorov alebo môže byť použitý na skúmanie vlastností a účinnosti rozličných typov regulátorov.
 }
 
 % Abstrakt v cudzom jazyku (anglickom, nemeckom, ...)
 \abstractSecLang{Abstract}{
-In this place insert the text of the abstract in English or another foreign language. Sem vložte text abstraktu v angličtine, prípadne v inom cudzom jazyku.
+The main goal of this thesis was to design, construct and test a robot capable of balancing itself while moving with the use of only two wheels. This work contains the description of the manufacturing process, detailed description of the used regulator as well as an example of its implementation in C++ programming language. The result of this work was a robot capable of autonomously balancing on the spot and also moving in the environment according to the commands received from the operator. The robot can serve as a practical example of the implementation of PID regulators, but it can also be used to study the performance and behaviour of different types of regulators.  
 }
 
 \date{Dátum odovzdania práce}
 
-%\acknowledgements{
-%	Poďakovanie nie je povinné. Ak nemá byť zahrnuté, stačí túto časť %zakomentovať.
-%}
+\acknowledgements{
+Chcel by som sa poďakovať vedúcemu mojej bakalárskej práce Ing. Dušanovi Nemcovi, PhD. za všetky rady, ktoré mi pri písaní tejto práce poskytol. Taktiež by som sa chcel poďakovať mojej mame za pomoc pri záverečnej korektúre práce.
+}
 
 %-------------------------------------------------------
 %		 Vybrané metadáta zapíšeme aj do dokumentu.
@@ -158,15 +156,15 @@ In this place insert the text of the abstract in English or another foreign lang
 }
 
 % dictionary
-\acsetup{page-ref=none,list-style=dictstyle,extra-style=plain,extra-format={\;},only-used=false}{
-\ifargoutempty{\printacronyms[include-classes=dict,heading=none]}{}{
-	\unchapter{Slovník pojmov}
-	\setlength{\columnseprule}{0.2pt}
-	\setlength{\columnsep}{1.25cm}
-	\begin{multicols}{2}
-	\argoutemptyFirstArg
-	\end{multicols}
-}}
+%\acsetup{page-ref=none,list-style=dictstyle,extra-style=plain,extra-format={\;},only-used=false}{
+%\ifargoutempty{\printacronyms[include-classes=dict,heading=none]}{}{
+%	\unchapter{Slovník pojmov}
+%	\setlength{\columnseprule}{0.2pt}
+%	\setlength{\columnsep}{1.25cm}
+%	\begin{multicols}{2}
+%	\argoutemptyFirstArg
+%	\end{multicols}
+%}}
 
 \endgroup % suppress some commands in TOC and lists
 
@@ -203,6 +201,7 @@ In this place insert the text of the abstract in English or another foreign lang
 \makeAppendixPage
 \appendix
 \include{priloha_Ziegler-Nichols}
+\include{priloha_neosadeny_shield}
 \include{priloha1}
 \include{priloha_h_bridge}
 \include{priloha_program_flow}

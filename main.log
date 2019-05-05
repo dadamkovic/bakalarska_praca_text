@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.18)  4 MAR 2019 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.18)  5 MAY 2019 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3258,14 +3258,14 @@ Package encxvlna Info: $Id: encxvlna.sty 209 2008-06-20 21:34:39Z zw $
 (encxvlna)             (C) 2007, Zdenek Wagner, derived from vlna.tex
 (encxvlna)             developed by Petr Olsak.
 )
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 11
-1.
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 10
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 111.
+(Font)              scaled to size 12.0pt on input line 109.
 
 (/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
 Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
@@ -3320,79 +3320,74 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'urldate=iso' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 111.
+(biblatex)                Setting 'seconds=true' on input line 109.
 
 (./main.aux (./kap_uvod.aux) (./kapitola_1.aux) (./kapitola_2.aux
 
 LaTeX Warning: Label `eq:wheels' multiply defined.
 
-) (./kapitola_3.aux
-
-LaTeX Warning: Label `fig:robotOutsideFoto' multiply defined.
-
-) (./kapitola_4.aux) (./priloha_Ziegler-Nichols.aux) (./priloha1.aux
-
-LaTeX Warning: Label `fig:schemaShield' multiply defined.
-
-) (./priloha_program_flow.aux) (./priloha_enkoder.aux))
+) (./kapitola_3.aux) (./kapitola_4.aux) (./kapitola_5.aux) (./kapitola_6.aux)
+(./priloha_Ziegler-Nichols.aux) (./priloha_neosadeny_shield.aux)
+(./priloha1.aux) (./priloha_h_bridge.aux) (./priloha_program_flow.aux)
+(./priloha_enkoder.aux) (./priloha_current_sensor.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 111.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 11
-1.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 109.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 10
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 111.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 111
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 109.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 111.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 109.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 111.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 11
-1.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 109.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 10
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 109.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 1
-11.
+09.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
 \c@mv@tabular=\count576
 \c@mv@boldtabular=\count577
 \AtBeginShipoutBox=\box126
-Package hyperref Info: Link coloring OFF on input line 111.
+Package hyperref Info: Link coloring OFF on input line 109.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -3402,9 +3397,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count578
 )
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -3503,88 +3498,88 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 111.
-Package biblatex Info: Reference segment=0 on input line 111.
+Package biblatex Info: Reference section=0 on input line 109.
+Package biblatex Info: Reference segment=0 on input line 109.
 \c@lstlisting=\count585
 \c__siunitx_mathsf_int=\count586
 LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 1
-11.
+09.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 111.
+(Font)              scaled to size 12.0pt on input line 109.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 111.
+(Font)              scaled to size 8.8pt on input line 109.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 111.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 111
+(Font)              scaled to size 6.6pt on input line 109.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 111
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 111
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 111.
+LaTeX Font Info:    Try loading font information for U+msa on input line 109.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 111.
+LaTeX Font Info:    Try loading font information for U+msb on input line 109.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 111.
+(Font)              scaled to size 12.0pt on input line 109.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.8pt on input line 111.
+(Font)              scaled to size 8.8pt on input line 109.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.6pt on input line 111.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 111.
+(Font)              scaled to size 6.6pt on input line 109.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 109.
 
 (/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 111.
+(Font)              scaled to size 10.79993pt on input line 109.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.91994pt on input line 111.
+(Font)              scaled to size 7.91994pt on input line 109.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.93996pt on input line 111.
+(Font)              scaled to size 5.93996pt on input line 109.
 \c__siunitx_mathtt_int=\count587
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 111
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 111.
+(Font)              scaled to size 12.0pt on input line 109.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 8.8pt on input line 111.
+(Font)              scaled to size 8.8pt on input line 109.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 6.6pt on input line 111.
+(Font)              scaled to size 6.6pt on input line 109.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 117.
+(Font)              scaled to size 17.28pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 117.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 115.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 117.
+(Font)              scaled to size 17.28pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 117.
+(Font)              scaled to size 24.88pt on input line 115.
  [1.1
 
 
@@ -3608,12 +3603,12 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (101.58699pt too wide) in paragraph at lines 118--118
+Overfull \hbox (101.58699pt too wide) in paragraph at lines 116--116
 \T1/ntxtlf/m/n/12 ’koliace pra-co-visko:  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
@@ -3621,92 +3616,109 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \maketitle
+l.116 \maketitle
                  [1.2
 
 
 
 
 ]
-<modules/zadanie.pdf, id=41, 597.50786pt x 845.04686pt>
+
+pdfTeX warning: pdflatex (file ./modules/zadanie.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<modules/zadanie.pdf, id=41, 597.6729pt x 844.83629pt>
 File: modules/zadanie.pdf Graphic file (type pdf)
 <use modules/zadanie.pdf>
-Package pdftex.def Info: modules/zadanie.pdf  used on input line 124.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+Package pdftex.def Info: modules/zadanie.pdf  used on input line 122.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
+
+
+pdfTeX warning: pdflatex (file ./modules/zadanie.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
 File: modules/zadanie.pdf Graphic file (type pdf)
 <use modules/zadanie.pdf>
-Package pdftex.def Info: modules/zadanie.pdf  used on input line 124.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<modules/zadanie.pdf, id=44, page=1, 597.50786pt x 845.04686pt>
+Package pdftex.def Info: modules/zadanie.pdf  used on input line 122.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
+
+
+pdfTeX warning: pdflatex (file ./modules/zadanie.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./modules/zadanie.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<modules/zadanie.pdf, id=44, page=1, 597.6729pt x 844.83629pt>
 File: modules/zadanie.pdf Graphic file (type pdf)
 <use modules/zadanie.pdf, page 1>
-Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 124.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 File: modules/zadanie.pdf Graphic file (type pdf)
 <use modules/zadanie.pdf, page 1>
-Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 124.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 598.25508pt x 845.65926pt.
 File: modules/zadanie.pdf Graphic file (type pdf)
 <use modules/zadanie.pdf, page 1>
-Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 124.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 598.25508pt x 845.65926pt.
 File: modules/zadanie.pdf Graphic file (type pdf)
 <use modules/zadanie.pdf, page 1>
-Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 124.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 598.25508pt x 845.65926pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 \includepdf[fitpaper]{modules/zadanie.pdf}
+l.122 \includepdf[fitpaper]{modules/zadanie.pdf}
                                                 
 File: modules/zadanie.pdf Graphic file (type pdf)
 <use modules/zadanie.pdf, page 1>
-Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 124.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+Package pdftex.def Info: modules/zadanie.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 598.25508pt x 845.65926pt.
  [2.3
 
 
 
  <./modules/zadanie.pdf>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 140.
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 140.
-
 [1.4
 
 
 
 ]
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 143.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 138.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 143.
+(Font)              scaled to size 12.0pt on input line 138.
+ [2.5
+
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 141.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 141.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/ntxtlf/b/sc' tried instead on input line 143
+(Font)              Font shape `T1/ntxtlf/b/sc' tried instead on input line 141
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 24.88pt on input line 143.
- (./main.toc [2.5
+(Font)              scaled to size 24.88pt on input line 141.
+ (./main.toc [3.6
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 33.
+(Font)              scaled to size 14.4pt on input line 39.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 33.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 33.
+(Font)              scaled to size 14.4pt on input line 39.
 )
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [3.6] (./main.lof [4.7
+ [4.7] (./main.lof [5.8
 
 
 
@@ -3714,7 +3726,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [5.8] (./main.lot)
+ [6.9] (./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
@@ -3722,70 +3734,76 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 *************************************************
 * acro warning: "replaced"
 * 
-* The option `page-ref' you used on line 153 is deprecated and has been
+* The option `page-ref' you used on line 151 is deprecated and has been
 * replaced by `page-style'. Since I will not guarantee that option `page-ref'
 * will be kept forever I strongly encourage you to switch!
 *************************************************
 *************************************************
 * acro warning: "unknown"
 * 
-* You're trying to use the list style `acronyms' on line 153.
+* You're trying to use the list style `acronyms' on line 151.
 * However, I do not know list style `acronyms'!
 * If this is no typo please contact the package author.
 * 
 * I am going to use the list style `description' instead.
 *************************************************
 
-Underfull \hbox (badness 3396) in paragraph at lines 157--157
-\T1/ntxtlf/m/n/12 de-ri-va£ný in-teg-ra£ný re-gu-lá-tor(angl. []pro-por-tional 
-in-te-gral deriva-tive reg-u-la-
- []
+LaTeX Warning: Rerun to get page numbers of acronym FPS in acronym list right.
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 157--157
-\T1/ntxtlf/m/n/12 tor[]), s.[]3[]--[]6[]n[[]PWM]pulzne ²ír-ková mo-du-lá-cia (a
-ngl. []pulse width mod-u-la-tion[]),
- []
-
-[6.9
+LaTeX Warning: Rerun to get page numbers of acronym LQR in acronym list right.
 
 
+LaTeX Warning: Rerun to get page numbers of acronym PID in acronym list right.
 
-]
-*************************************************
-* acro warning: "replaced"
-* 
-* The option `page-ref' you used on line 161 is deprecated and has been
-* replaced by `page-style'. Since I will not guarantee that option `page-ref'
-* will be kept forever I strongly encourage you to switch!
-*************************************************
-LaTeX Font Info:    Try loading font information for T1+DejaVuSansMono-TLF on i
-nput line 169.
-(/usr/share/texlive/texmf-dist/tex/latex/dejavu/T1DejaVuSansMono-TLF.fd
-File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
--TLF.
-)
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 169.
+
+LaTeX Warning: Rerun to get page numbers of acronym PWM in acronym list right.
+
+
+LaTeX Warning: Rerun to get page numbers of acronym RPM in acronym list right.
+
+
+LaTeX Warning: Rerun to get page numbers of acronym RS in acronym list right.
+
+
+LaTeX Warning: Rerun to get page numbers of acronym SISO in acronym list right.
+
+
+
+LaTeX Warning: Rerun to get page numbers of acronym UART in acronym list right.
+
 
 [7.10
 
 
 
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-   [] []\T1/ntxtlf/b/n/12 Slovník poj-mov:[] |   []   |   []   |   []
- []
+
+LaTeX Warning: Rerun to get page numbers of acronym FPS in acronym list right.
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 169--169
-   [] []\T1/ntxtlf/b/n/12 Zhlukovanie:[] \T1/ntxtlf/m/n/12 Trieda me-tód stro-j
-o-vého
- []
+LaTeX Warning: Rerun to get page numbers of acronym LQR in acronym list right.
 
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 169.
+
+LaTeX Warning: Rerun to get page numbers of acronym PID in acronym list right.
+
+
+LaTeX Warning: Rerun to get page numbers of acronym PWM in acronym list right.
+
+
+LaTeX Warning: Rerun to get page numbers of acronym RPM in acronym list right.
+
+
+LaTeX Warning: Rerun to get page numbers of acronym RS in acronym list right.
+
+
+LaTeX Warning: Rerun to get page numbers of acronym SISO in acronym list right.
+
+
+
+LaTeX Warning: Rerun to get page numbers of acronym UART in acronym list right.
+
+
 [8.11
 
 
@@ -3815,80 +3833,71 @@ Kapitola 2.
 
 
 ]
-<images/PIDSchematic.jpeg, id=269, 1006.76125pt x 333.245pt>
-File: images/PIDSchematic.jpeg Graphic file (type jpg)
-<use images/PIDSchematic.jpeg>
-Package pdftex.def Info: images/PIDSchematic.jpeg  used on input line 32.
-(pdftex.def)             Requested size: 227.62204pt x 75.34299pt.
- [3.14]
-<images/PIDComplete.jpeg, id=276, 1226.33156pt x 725.71124pt>
+<images/basic_RS.png, id=298, 1188.44pt x 381.425pt>
+File: images/basic_RS.png Graphic file (type png)
+<use images/basic_RS.png>
+Package pdftex.def Info: images/basic_RS.png  used on input line 32.
+(pdftex.def)             Requested size: 398.33858pt x 127.84363pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3.14]
+<images/PIDComplete.jpeg, id=305, 1254.6875pt x 522.95375pt>
 File: images/PIDComplete.jpeg Graphic file (type jpg)
 <use images/PIDComplete.jpeg>
 Package pdftex.def Info: images/PIDComplete.jpeg  used on input line 43.
-(pdftex.def)             Requested size: 227.62204pt x 134.69742pt.
- [4.15 <./images/PIDSchematic.jpeg> <./images/PIDComplete.jpeg>]
-[5.16]
+(pdftex.def)             Requested size: 426.79134pt x 177.8897pt.
+ [4.15 <./images/basic_RS.png> <./images/PIDComplete.jpeg>] [5.16]
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
-16.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 116.
-
-
-Package caption Warning: \label without proper reference on input line 4.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:Zieger-Nichols' on page 6 undefined on input line
- 117.
-
-[6.17]
+(Font)              scaled to size 12.0pt on input line 112.
+ [6.17]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 128.
+(Font)              scaled to size 8.8pt on input line 123.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 128.
- [7.18]
-<images/stavovyPriestorDiagram.jpeg, id=317, 664.73344pt x 340.27126pt>
+(Font)              scaled to size 6.6pt on input line 123.
+<images/stavovyPriestorDiagram.jpeg, id=341, 839.135pt x 240.9pt>
 File: images/stavovyPriestorDiagram.jpeg Graphic file (type jpg)
 <use images/stavovyPriestorDiagram.jpeg>
 Package pdftex.def Info: images/stavovyPriestorDiagram.jpeg  used on input line
- 134.
-(pdftex.def)             Requested size: 256.0748pt x 131.08011pt.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 154.
- [8.19 <./images/stavovyPriestorDiagram.jpeg>]
-<images/stavovyPriestorSV.jpeg, id=324, 748.29562pt x 537.50812pt>
+ 128.
+(pdftex.def)             Requested size: 426.79134pt x 122.52286pt.
+ [7.18 <./images/stavovyPriestorDiagram.jpeg>]
+<images/stavovyPriestorSV.jpeg, id=349, 816.04875pt x 247.92625pt>
 File: images/stavovyPriestorSV.jpeg Graphic file (type jpg)
 <use images/stavovyPriestorSV.jpeg>
-Package pdftex.def Info: images/stavovyPriestorSV.jpeg  used on input line 178.
+Package pdftex.def Info: images/stavovyPriestorSV.jpeg  used on input line 168.
 
-(pdftex.def)             Requested size: 256.0748pt x 183.93959pt.
- [9.20 <./images/stavovyPriestorSV.jpeg>] [10.21] [11.22]) [12.23]
+(pdftex.def)             Requested size: 426.79134pt x 129.66386pt.
+ [8.19] [9.20 <./images/stavovyPriestorSV.jpeg>] [10.21]) [11.22]
 \openout2 = `kapitola_2.aux'.
 
  (./kapitola_2.tex
 Kapitola 3.
-<images/wheelForces.jpeg, id=358, 495.35063pt x 400.49625pt>
+<images/wheelForces.jpeg, id=387, 495.35063pt x 400.49625pt>
 File: images/wheelForces.jpeg Graphic file (type jpg)
 <use images/wheelForces.jpeg>
-Package pdftex.def Info: images/wheelForces.jpeg  used on input line 14.
-(pdftex.def)             Requested size: 227.62204pt x 184.03496pt.
-[13.24
+Package pdftex.def Info: images/wheelForces.jpeg  used on input line 13.
+(pdftex.def)             Requested size: 284.52756pt x 230.04521pt.
+[12.23
 
 
 
 
 
-] [14.25 <./images/wheelForces.jpeg>]
-<images/chasisPend.jpeg, id=380, 305.14pt x 481.8pt>
+] [13.24 <./images/wheelForces.jpeg>] [14.25]
+<images/chasisPend.jpeg, id=418, 305.14pt x 481.8pt>
 File: images/chasisPend.jpeg Graphic file (type jpg)
 <use images/chasisPend.jpeg>
-Package pdftex.def Info: images/chasisPend.jpeg  used on input line 115.
-(pdftex.def)             Requested size: 113.81102pt x 179.70413pt.
- [15.26 <./images/chasisPend.jpeg>]
-[16.27]) [17.28]
+Package pdftex.def Info: images/chasisPend.jpeg  used on input line 112.
+(pdftex.def)             Requested size: 142.26378pt x 224.63016pt.
+ [15.26 <./images/chasisPend.jpeg>]) [16.27]
 \openout2 = `kapitola_3.aux'.
 
  (./kapitola_3.tex
@@ -3898,128 +3907,150 @@ Underfull \hbox (badness 1215) in paragraph at lines 1--1
 |[]\T1/ntxtlf/b/sc/24.88 Návrh a re-a-li-zá-cia kon-²truk-cie
  []
 
-[18.29
+[17.28
 
 
 
 
 
 ]
-<images/tokyDat.png, id=426, 704.6325pt x 550.055pt>
-File: images/tokyDat.png Graphic file (type png)
-<use images/tokyDat.png>
-Package pdftex.def Info: images/tokyDat.png  used on input line 26.
-(pdftex.def)             Requested size: 284.52756pt x 222.10799pt.
- [19.30 <./images/tokyDat.png>]
-<images/bateria.jpg, id=432, 903.375pt x 903.375pt>
+<images/bateria.jpg, id=456, 903.375pt x 903.375pt>
 File: images/bateria.jpg Graphic file (type jpg)
 <use images/bateria.jpg>
-Package pdftex.def Info: images/bateria.jpg  used on input line 38.
+Package pdftex.def Info: images/bateria.jpg  used on input line 29.
 (pdftex.def)             Requested size: 170.71652pt x 170.70569pt.
-<images/napRegulator.png, id=434, 470.50781pt x 338.76563pt>
-File: images/napRegulator.png Graphic file (type png)
-<use images/napRegulator.png>
-Package pdftex.def Info: images/napRegulator.png  used on input line 50.
-(pdftex.def)             Requested size: 170.71652pt x 122.91698pt.
- [20.31 <./images/bateria.jpg>]
-<images/motorPlatforma.png, id=440, 627.34375pt x 627.34375pt>
+
+Overfull \hbox (11.71825pt too wide) in paragraph at lines 39--46
+ [][] 
+ []
+
+[18.29 <./images/bateria.jpg>]
+<images/napRegulator.jpg, id=468, 321.2pt x 240.9pt>
+File: images/napRegulator.jpg Graphic file (type jpg)
+<use images/napRegulator.jpg>
+Package pdftex.def Info: images/napRegulator.jpg  used on input line 58.
+(pdftex.def)             Requested size: 170.71652pt x 128.04028pt.
+ [19.30 <./images/napRegulator.jpg>]
+<images/motorPlatforma.png, id=479, 627.34375pt x 627.34375pt>
 File: images/motorPlatforma.png Graphic file (type png)
 <use images/motorPlatforma.png>
-Package pdftex.def Info: images/motorPlatforma.png  used on input line 67.
+Package pdftex.def Info: images/motorPlatforma.png  used on input line 73.
 (pdftex.def)             Requested size: 170.71652pt x 170.71564pt.
- [21.32 <./images/napRegulator.png>]
-<images/hMostik.png, id=447, 501.875pt x 501.875pt>
+ [20.31 <./images/motorPlatforma.png (PNG copy)>]
+<images/hMostik.png, id=489, 501.875pt x 501.875pt>
 File: images/hMostik.png Graphic file (type png)
 <use images/hMostik.png>
-Package pdftex.def Info: images/hMostik.png  used on input line 79.
+Package pdftex.def Info: images/hMostik.png  used on input line 85.
 (pdftex.def)             Requested size: 170.71652pt x 170.71947pt.
- [22.33 <./images/motorPlatforma.png (PNG copy)>]
-<images/servoMotor.png, id=453, 753.5653pt x 522.45187pt>
+<images/servoMotor.png, id=493, 501.875pt x 436.63126pt>
 File: images/servoMotor.png Graphic file (type png)
 <use images/servoMotor.png>
-Package pdftex.def Info: images/servoMotor.png  used on input line 93.
-(pdftex.def)             Requested size: 227.62204pt x 157.80501pt.
+Package pdftex.def Info: images/servoMotor.png  used on input line 98.
+(pdftex.def)             Requested size: 227.62204pt x 198.03459pt.
 
-[23.34 <./images/hMostik.png> <./images/servoMotor.png>]
-<images/bluetoothModul.png, id=460, 501.875pt x 395.4775pt>
-File: images/bluetoothModul.png Graphic file (type png)
-<use images/bluetoothModul.png>
-Package pdftex.def Info: images/bluetoothModul.png  used on input line 107.
-(pdftex.def)             Requested size: 227.62204pt x 179.36926pt.
- [24.35 <./images/bluetoothModul.png>]
-<images/MPU.png, id=466, 803.0pt x 596.2275pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/bluetoothModul.jpg, id=496, 642.4pt x 481.8pt>
+File: images/bluetoothModul.jpg Graphic file (type jpg)
+<use images/bluetoothModul.jpg>
+Package pdftex.def Info: images/bluetoothModul.jpg  used on input line 106.
+(pdftex.def)             Requested size: 227.62204pt x 170.71304pt.
+[21.32 <./images/hMostik.png>] [22.33 <./images/servoMotor.png> <./images/bluet
+oothModul.jpg>]
+<images/MPU.png, id=512, 451.6875pt x 451.6875pt>
 File: images/MPU.png Graphic file (type png)
 <use images/MPU.png>
-Package pdftex.def Info: images/MPU.png  used on input line 122.
-(pdftex.def)             Requested size: 227.62204pt x 169.00774pt.
- [25.36 <./images/MPU.png>]
-<images/arduinoMega.png, id=473, 1284.8pt x 803.0pt>
+Package pdftex.def Info: images/MPU.png  used on input line 123.
+(pdftex.def)             Requested size: 227.62204pt x 227.62827pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23.34]
+<images/arduinoMega.png, id=524, 1284.8pt x 803.0pt>
 File: images/arduinoMega.png Graphic file (type png)
 <use images/arduinoMega.png>
-Package pdftex.def Info: images/arduinoMega.png  used on input line 136.
+Package pdftex.def Info: images/arduinoMega.png  used on input line 138.
 (pdftex.def)             Requested size: 227.62204pt x 142.25475pt.
- [26.37 <./images/arduinoMega.png>]
-<images/robotVizu.png, id=481, 10028.46625pt x 2552.53625pt>
-File: images/robotVizu.png Graphic file (type png)
-<use images/robotVizu.png>
-Package pdftex.def Info: images/robotVizu.png  used on input line 148.
-(pdftex.def)             Requested size: 341.43306pt x 86.89413pt.
-<images/robotOutsideFoto.jpg, id=483, 3131.7pt x 4175.6pt>
-File: images/robotOutsideFoto.jpg Graphic file (type jpg)
-<use images/robotOutsideFoto.jpg>
-Package pdftex.def Info: images/robotOutsideFoto.jpg  used on input line 159.
-(pdftex.def)             Requested size: 227.62204pt x 303.4719pt.
-
-[27.38 <./images/robotVizu.png (PNG copy)>] [28.39 <./images/robotOutsideFoto.j
-pg>]
-<images/robotInsideFoto.jpg, id=494, 3131.7pt x 4175.6pt>
+ [24.35 <./images/MPU.png>] [25.36 <./images/arduinoMega.png>]
+<images/robotComp.png, id=542, 2451.1575pt x 1918.16624pt>
+File: images/robotComp.png Graphic file (type png)
+<use images/robotComp.png>
+Package pdftex.def Info: images/robotComp.png  used on input line 158.
+(pdftex.def)             Requested size: 398.33858pt x 311.71295pt.
+ [26.37 <./images/robotComp.png>]
+<images/robotInsideFoto.jpg, id=550, 1565.85pt x 2087.8pt>
 File: images/robotInsideFoto.jpg Graphic file (type jpg)
 <use images/robotInsideFoto.jpg>
-Package pdftex.def Info: images/robotInsideFoto.jpg  used on input line 172.
-(pdftex.def)             Requested size: 227.62204pt x 303.4719pt.
- [29.40 <./images/robotInsideFoto.jpg>]
-<images/schemaShield.png, id=500, 720.7728pt x 600.8046pt>
-File: images/schemaShield.png Graphic file (type png)
-<use images/schemaShield.png>
-Package pdftex.def Info: images/schemaShield.png  used on input line 190.
-(pdftex.def)             Requested size: 654.41338pt x 545.50458pt.
-<images/kontrolerVizu.png, id=501, 2107.875pt x 1505.625pt>
+Package pdftex.def Info: images/robotInsideFoto.jpg  used on input line 175.
+(pdftex.def)             Requested size: 211.68661pt x 282.22313pt.
+<images/shield.jpg, id=551, 1565.85pt x 2087.8pt>
+File: images/shield.jpg Graphic file (type jpg)
+<use images/shield.jpg>
+Package pdftex.def Info: images/shield.jpg  used on input line 181.
+(pdftex.def)             Requested size: 211.68661pt x 282.22313pt.
+ [27.38 <./images/robotInsideFoto.jpg> <./images/shield.jpg>] [28.39]
+<images/front_robot.jpg, id=568, 736.7525pt x 982.67125pt>
+File: images/front_robot.jpg Graphic file (type jpg)
+<use images/front_robot.jpg>
+Package pdftex.def Info: images/front_robot.jpg  used on input line 203.
+(pdftex.def)             Requested size: 211.68661pt x 282.34335pt.
+<images/side_robot.jpg, id=569, 736.7525pt x 982.67125pt>
+File: images/side_robot.jpg Graphic file (type jpg)
+<use images/side_robot.jpg>
+Package pdftex.def Info: images/side_robot.jpg  used on input line 209.
+(pdftex.def)             Requested size: 211.68661pt x 282.34335pt.
+ [29.40 <./images/front_robot.jpg> <./images/side_robot.jpg>]
+<images/kontrolerVizu.png, id=574, 1284.8pt x 1027.84pt>
 File: images/kontrolerVizu.png Graphic file (type png)
 <use images/kontrolerVizu.png>
-Package pdftex.def Info: images/kontrolerVizu.png  used on input line 201.
-(pdftex.def)             Requested size: 227.62204pt x 162.5867pt.
- [30.41] [31.42 <./images/schemaShield.png>]) [32.43 <./images/kontrolerVizu.pn
-g (PNG copy)>]
+Package pdftex.def Info: images/kontrolerVizu.png  used on input line 223.
+(pdftex.def)             Requested size: 227.62204pt x 182.08607pt.
+)
+[30.41 <./images/kontrolerVizu.png (PNG copy)>]
 \openout2 = `kapitola_4.aux'.
 
  (./kapitola_4.tex
 Kapitola 5.
-<images/PID_robota.jpeg, id=519, 1006.76125pt x 333.245pt>
+<images/PID_robota.jpeg, id=581, 1006.76125pt x 333.245pt>
 File: images/PID_robota.jpeg Graphic file (type jpg)
 <use images/PID_robota.jpeg>
 Package pdftex.def Info: images/PID_robota.jpeg  used on input line 10.
-(pdftex.def)             Requested size: 284.52756pt x 94.17747pt.
-[33.44
+(pdftex.def)             Requested size: 455.24408pt x 150.68599pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+[31.42
 
 
 
 
 
  <./images/PID_robota.jpeg>]
-<images/strieda_napatie.png, id=527, 751.608pt x 453.1329pt>
+<images/strieda_napatie.png, id=589, 751.608pt x 453.1329pt>
 File: images/strieda_napatie.png Graphic file (type png)
 <use images/strieda_napatie.png>
 Package pdftex.def Info: images/strieda_napatie.png  used on input line 28.
-(pdftex.def)             Requested size: 284.52756pt x 171.53543pt.
- [34.45 <./images/strieda_napatie.png>]
-[35.46]
+(pdftex.def)             Requested size: 398.33858pt x 240.15237pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32.43] [33.44 <./images/strieda_napatie.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 43.
 \openout4 = `main-code-1.txt'.
 
+ [34.45]
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 71.
+t line 72.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 71.
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+(Font)              scaled to size 10.0pt on input line 72.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -4029,10 +4060,17 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 71.
+nput line 72.
+LaTeX Font Info:    Try loading font information for T1+DejaVuSansMono-TLF on i
+nput line 72.
+
+(/usr/share/texlive/texmf-dist/tex/latex/dejavu/T1DejaVuSansMono-TLF.fd
+File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
+-TLF.
+)
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 71.
-Package csquotes Info: Input encoding change on input line 71.
+(Font)              scaled to size 8.00003pt on input line 72.
+Package csquotes Info: Input encoding change on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/cp1250.def
 File: cp1250.def 2015/03/17 v1.2c Input encoding file
@@ -4045,43 +4083,99 @@ File: se-cp1250.def 2016/05/16 v1.11 stringenc: cp1250
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.0pt on input line 1.
- [36.47]
-<images/comp_RS_diagram.jpeg, id=576, 1102.1175pt x 464.73625pt>
+ [35.46]
+<images/comp_RS_diagram.jpeg, id=648, 1102.1175pt x 464.73625pt>
 File: images/comp_RS_diagram.jpeg Graphic file (type jpg)
 <use images/comp_RS_diagram.jpeg>
-Package pdftex.def Info: images/comp_RS_diagram.jpeg  used on input line 91.
+Package pdftex.def Info: images/comp_RS_diagram.jpeg  used on input line 117.
 (pdftex.def)             Requested size: 426.79134pt x 179.96997pt.
-)
-[37.48 <./images/comp_RS_diagram.jpeg>] [38.49
+
+[36.47] [37.48 <./images/comp_RS_diagram.jpeg>] [38.49]
+<images/additionalPid.jpeg, id=665, 1087.06125pt x 364.36125pt>
+File: images/additionalPid.jpeg Graphic file (type jpg)
+<use images/additionalPid.jpeg>
+Package pdftex.def Info: images/additionalPid.jpeg  used on input line 150.
+(pdftex.def)             Requested size: 455.24408pt x 152.59146pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 150--151
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39.50]) [40.51 <./images/additionalPid.jpeg>]
+\openout2 = `kapitola_5.aux'.
+
+ (./kapitola_5.tex
+Kapitola 6.
+[41.52
 
 
 
 
 
-] [39.50
+]
+<images/combination.png, id=683, 930.8376pt x 486.3771pt>
+File: images/combination.png Graphic file (type png)
+<use images/combination.png>
+Package pdftex.def Info: images/combination.png  used on input line 44.
+(pdftex.def)             Requested size: 483.69684pt x 252.73943pt.
+
+Overfull \hbox (42.67911pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+[42.53 <./images/combination.png>]
+<images/zmena_polohy.png, id=693, 791.3565pt x 498.663pt>
+File: images/zmena_polohy.png Graphic file (type png)
+<use images/zmena_polohy.png>
+Package pdftex.def Info: images/zmena_polohy.png  used on input line 54.
+(pdftex.def)             Requested size: 483.69276pt x 256.07243pt.
+
+Overfull \hbox (42.67503pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+) [43.54 <./images/zmena_polohy.png>]
+\openout2 = `kapitola_6.aux'.
+
+ (./kapitola_6.tex
+Kapitola 7.
+) [44.55
 
 
-] [40.51
+
+
+
+]
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 189.
+ [45.56
+
+
+
+
+
+] [46.57] [47.58
+
+
+] [48.59
 
 
 
 ]
 \openout2 = `priloha_Ziegler-Nichols.aux'.
 
+ (./priloha_Ziegler-Nichols.texpdfTeX warning (ext4): destination with the same
+ identifier (name{appendixchapters.1}) has been already used, duplicate ignored
 
-(./priloha_Ziegler-Nichols.texpdfTeX warning (ext4): destination with the same 
-identifier (name{appendixchapters.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter{Zieger-Nicholsova tabuÄ¾ka}
-                                        
+l.1 \chapter{MetÃ³da - Ziegler-Nichols}
+                                       
 Pr\IeC {\'\i }loha A.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-|[]\T1/ntxtlf/b/sc/24.88 Zieger-Nicholsova ta-
- []
-
-) [1.52
+) [1.60
 
 
 
@@ -4089,36 +4183,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 
 ]
+\openout2 = `priloha_neosadeny_shield.aux'.
+
+ (./priloha_neosadeny_shield.texpdfTeX warning (ext4): destination with the sam
+e identifier (name{appendixchapters.2}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.1 \chapter{Arduino shield}
+                            
+Pr\IeC {\'\i }loha B.
+<images/shieldClean.jpg, id=748, 4175.6pt x 3131.7pt>
+File: images/shieldClean.jpg Graphic file (type jpg)
+<use images/shieldClean.jpg>
+Package pdftex.def Info: images/shieldClean.jpg  used on input line 3.
+(pdftex.def)             Requested size: 426.79134pt x 320.0695pt.
+) [2.61
+
+
+
+
+
+ <./images/shieldClean.jpg>]
 \openout2 = `priloha1.aux'.
 
  (./priloha1.texpdfTeX warning (ext4): destination with the same identifier (na
-me{appendixchapters.2}) has been already used, duplicate ignored
+me{appendixchapters.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 \chapter{SchÃ©ma shieldu}
                              
-Pr\IeC {\'\i }loha B.
+Pr\IeC {\'\i }loha C.
+<images/schemaShield.png, id=756, 720.7728pt x 600.8046pt>
 File: images/schemaShield.png Graphic file (type png)
 <use images/schemaShield.png>
 Package pdftex.def Info: images/schemaShield.png  used on input line 5.
 (pdftex.def)             Requested size: 426.803pt x 483.70627pt.
-) [2.53
+) [3.62
 
 
 
 
 
-]
+ <./images/schemaShield.png>]
+\openout2 = `priloha_h_bridge.aux'.
+
+ (./priloha_h_bridge.texpdfTeX warning (ext4): destination with the same identi
+fier (name{appendixchapters.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter{SchÃ©ma H-mostÃ­ka}
+                                
+Pr\IeC {\'\i }loha D.
+<images/h_bridge_scheme.png, id=763, 150.61725pt x 108.56924pt>
+File: images/h_bridge_scheme.png Graphic file (type png)
+<use images/h_bridge_scheme.png>
+Package pdftex.def Info: images/h_bridge_scheme.png  used on input line 4.
+(pdftex.def)             Requested size: 341.43306pt x 246.15216pt.
+) [4.63
+
+
+
+
+
+ <./images/h_bridge_scheme.png>]
 \openout2 = `priloha_program_flow.aux'.
 
  (./priloha_program_flow.texpdfTeX warning (ext4): destination with the same id
-entifier (name{appendixchapters.3}) has been already used, duplicate ignored
+entifier (name{appendixchapters.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Diagram programu}
                               
-Pr\IeC {\'\i }loha C.
-<images/simple_flowchart.jpeg, id=604, 492.84125pt x 949.5475pt>
+Pr\IeC {\'\i }loha E.
+<images/simple_flowchart.jpeg, id=770, 492.84125pt x 949.5475pt>
 File: images/simple_flowchart.jpeg Graphic file (type jpg)
 <use images/simple_flowchart.jpeg>
 Package pdftex.def Info: images/simple_flowchart.jpeg  used on input line 4.
@@ -4134,7 +4272,7 @@ LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
 
 Package hyperref Warning: Ignoring empty anchor on input line 9.
 
-) [3.54
+) [5.64
 
 
 
@@ -4144,13 +4282,13 @@ Package hyperref Warning: Ignoring empty anchor on input line 9.
 \openout2 = `priloha_enkoder.aux'.
 
  (./priloha_enkoder.texpdfTeX warning (ext4): destination with the same identif
-ier (name{appendixchapters.4}) has been already used, duplicate ignored
+ier (name{appendixchapters.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{VÃ½stup z enkodÃ©ra}
                                  
-Pr\IeC {\'\i }loha D.
-<images/enkoder.jpeg, id=611, 986.68625pt x 504.88625pt>
+Pr\IeC {\'\i }loha F.
+<images/enkoder.jpeg, id=777, 986.68625pt x 504.88625pt>
 File: images/enkoder.jpeg Graphic file (type jpg)
 <use images/enkoder.jpeg>
 Package pdftex.def Info: images/enkoder.jpeg  used on input line 4.
@@ -4160,29 +4298,49 @@ Overfull \hbox (14.22635pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-) [4.55
+) [6.65
 
 
 
 
 
  <./images/enkoder.jpeg>]
+\openout2 = `priloha_current_sensor.aux'.
+
+ (./priloha_current_sensor.texpdfTeX warning (ext4): destination with the same 
+identifier (name{appendixchapters.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter{SnÃ­manie prÃºdu}
+                              
+Pr\IeC {\'\i }loha G.
+<images/shield_marked.jpg, id=783, 1565.85pt x 2087.8pt>
+File: images/shield_marked.jpg Graphic file (type jpg)
+<use images/shield_marked.jpg>
+Package pdftex.def Info: images/shield_marked.jpg  used on input line 5.
+(pdftex.def)             Requested size: 341.43306pt x 455.2397pt.
+) [7.66
+
+
+
+
+
+ <./images/shield_marked.jpg>]
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
 (./main.aux (./kap_uvod.aux) (./kapitola_1.aux) (./kapitola_2.aux)
-(./kapitola_3.aux) (./kapitola_4.aux) (./priloha_Ziegler-Nichols.aux)
-(./priloha1.aux) (./priloha_program_flow.aux) (./priloha_enkoder.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 207.
-
-
-LaTeX Warning: There were undefined references.
+(./kapitola_3.aux) (./kapitola_4.aux) (./kapitola_5.aux) (./kapitola_6.aux)
+(./priloha_Ziegler-Nichols.aux) (./priloha_neosadeny_shield.aux)
+(./priloha1.aux) (./priloha_h_bridge.aux) (./priloha_program_flow.aux)
+(./priloha_enkoder.aux) (./priloha_current_sensor.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 210.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4192,34 +4350,61 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55377 strings out of 492982
- 1026448 string characters out of 6134895
- 1610148 words of memory out of 5000000
- 57752 multiletter control sequences out of 15000+600000
- 619339 words of font info for 126 fonts, out of 8000000 for 9000
+ 55604 strings out of 492982
+ 1031797 string characters out of 6134895
+ 1631004 words of memory out of 5000000
+ 57884 multiletter control sequences out of 15000+600000
+ 619139 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,18n,106p,10378b,2423s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/ec.enc}{/usr/share/texmf/
-fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvi
-ps/newtx/ntx-ot1-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r
-.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/
-share/texlive/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}</usr/share/tex
-live/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/share/texmf/font
-s/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/
-qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmi
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (55 pages, 16759473 bytes).
+ 76i,18n,106p,10378b,2422s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{listing.caption.28} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.36} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.14} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.13} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.35} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.34} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/ec.enc}{/usr/share/texmf/fo
+nts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/dejavu/dejavumono_t1-type1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+newtx/ntx-ec-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-o
+t1-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/share/texmf/fonts/
+type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qt
+mr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
+ewtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (66 pages, 15090380 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
- 663 compressed objects within 7 object streams
- 201 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1017 PDF objects out of 1200 (max. 8388607)
+ 840 compressed objects within 9 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 593 words of extra memory for PDF output out of 10000 (max. 10000000)
 

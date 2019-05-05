@@ -63,6 +63,57 @@
       \field{title}{Teória automatického riadenia 1 Lineárne systémy riadenia}
       \field{year}{2006}
     \endentry
+    \entry{ContSys}{book}{}
+      \name{author}{1}{}{%
+        {{hash=438e6a4c1af119bdd6d516a62eea69ab}{%
+           family={Nise},
+           familyi={N\bibinitperiod},
+           given={Norman\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{438e6a4c1af119bdd6d516a62eea69ab}
+      \strng{fullhash}{438e6a4c1af119bdd6d516a62eea69ab}
+      \strng{bibnamehash}{438e6a4c1af119bdd6d516a62eea69ab}
+      \strng{authorbibnamehash}{438e6a4c1af119bdd6d516a62eea69ab}
+      \strng{authornamehash}{438e6a4c1af119bdd6d516a62eea69ab}
+      \strng{authorfullhash}{438e6a4c1af119bdd6d516a62eea69ab}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1118170519}
+      \field{pagetotal}{944}
+      \field{title}{Control Systems Engineering}
+      \field{year}{2015}
+    \endentry
+    \entry{LQRpaper}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b819a41c6eb38dc6db10f921006e0b0c}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {California Institute of Technology}%
+      }
+      \strng{namehash}{b819a41c6eb38dc6db10f921006e0b0c}
+      \strng{fullhash}{b819a41c6eb38dc6db10f921006e0b0c}
+      \strng{bibnamehash}{b819a41c6eb38dc6db10f921006e0b0c}
+      \strng{authorbibnamehash}{b819a41c6eb38dc6db10f921006e0b0c}
+      \strng{authornamehash}{b819a41c6eb38dc6db10f921006e0b0c}
+      \strng{authorfullhash}{b819a41c6eb38dc6db10f921006e0b0c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Control and Dynamical Systems, Lecture 2 - LQR Control}
+      \field{year}{2006}
+    \endentry
     \entry{Oochi2003}{thesis}{}
       \name{author}{1}{}{%
         {{hash=90b4a4f0a63eb2322d7aca34d0c6a44a}{%
@@ -93,8 +144,8 @@
       \strng{supervisorbibnamehash}{8ef69ed2cce8d9d1735f63f7a1b8eea1}
       \strng{supervisornamehash}{8ef69ed2cce8d9d1735f63f7a1b8eea1}
       \strng{supervisorfullhash}{8ef69ed2cce8d9d1735f63f7a1b8eea1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Balancing a Two-Wheeled Autonomous Robot}
@@ -133,13 +184,161 @@
       \strng{supervisorbibnamehash}{892903264a40691407b74bb4713151e5}
       \strng{supervisornamehash}{892903264a40691407b74bb4713151e5}
       \strng{supervisorfullhash}{892903264a40691407b74bb4713151e5}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Balancing a Two Wheeled Robot}
       \field{type}{mathesis}
       \field{year}{2009}
+    \endentry
+    \entry{VariCore}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{title}{VariCore battery pack, stránky výrobcu dostupné online}
+      \verb{urlraw}
+      \verb https://varicore.aliexpress.com
+      \endverb
+      \verb{url}
+      \verb https://varicore.aliexpress.com
+      \endverb
+    \endentry
+    \entry{LM2596}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{Rev. D}
+      \field{number}{LM2596}
+      \field{title}{LM2596 SIMPLE SWITCHER® Power Converter150-kHz 3-A Step-Down Voltage Regulator}
+      \field{year}{2016}
+    \endentry
+    \entry{MP1584}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labeltitlesource}{title}
+      \field{title}{MP1584 modul, stránky predajcu dostupné online}
+      \verb{urlraw}
+      \verb https://www.haoyuelectronics.com/Attachment/MP1584/
+      \endverb
+      \verb{url}
+      \verb https://www.haoyuelectronics.com/Attachment/MP1584/
+      \endverb
+    \endentry
+    \entry{wheelBase}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{Platforma s motorami a kolesami, stránky predajcu dostupné online}
+      \verb{urlraw}
+      \verb https://bit.ly/2DPdpWt
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2DPdpWt
+      \endverb
+    \endentry
+    \entry{hBridge}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{Dual DC Motor Driver Module, stránky predajcu dostupné online}
+      \verb{urlraw}
+      \verb https://czb6721960.aliexpress.com
+      \endverb
+      \verb{url}
+      \verb https://czb6721960.aliexpress.com
+      \endverb
+    \endentry
+    \entry{servoMotor}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{Servo HJ S3315D, stránky predajcu dostupné online}
+      \verb{urlraw}
+      \verb https://xberstar-doneway.aliexpress.com
+      \endverb
+      \verb{url}
+      \verb https://xberstar-doneway.aliexpress.com
+      \endverb
+    \endentry
+    \entry{bluetoothModule}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{Bluetooh module HC-05, stránky predajcu dostupné online}
+      \verb{urlraw}
+      \verb www.tme.eu
+      \endverb
+      \verb{url}
+      \verb www.tme.eu
+      \endverb
+    \endentry
+    \entry{GY-521pic}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{GY-521 modul, stránky výrobcu dostupné online}
+      \verb{urlraw}
+      \verb https://thinaryelectronic.aliexpress.com
+      \endverb
+      \verb{url}
+      \verb https://thinaryelectronic.aliexpress.com
+      \endverb
+    \endentry
+    \entry{MPU6050datasheet}{manual}{}
+      \list{organization}{1}{%
+        {InvenSense}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Rev. 3.4}
+      \field{number}{MPU6050}
+      \field{title}{MPU-6000 and MPU-6050 Product Specification}
+      \field{year}{2013}
+    \endentry
+    \entry{ATMEGA328}{manual}{}
+      \list{organization}{1}{%
+        {Microchip-Atmel}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Rev. A}
+      \field{number}{ATmega328P}
+      \field{title}{ATmega48A/PA/88A/PA/168A/PA/328/P - Datasheet}
+      \field{year}{2018}
+    \endentry
+    \entry{ATMEGA2560}{manual}{}
+      \list{organization}{1}{%
+        {Microchip-Atmel}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Rev. 2549Q}
+      \field{number}{ATmega2560}
+      \field{title}{ATmega640/1280/1281/2560/2561 - Datasheet}
+      \field{year}{2014}
+    \endentry
+    \entry{arduinoMEGA}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{title}{Arduino Mega Rev 3, stránky výrobcu dostupné online}
+      \verb{urlraw}
+      \verb store.arduino.cc
+      \endverb
+      \verb{url}
+      \verb store.arduino.cc
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

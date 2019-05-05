@@ -1,5 +1,11 @@
 \chapter{Zhrnutie dosiahnutých výsledkov}
-V tejto práci sme sa venovali popisu činnosti práce pri návrhu a skonštrovaní dvojolesového balansujúceho robota. Nami vyrobený robot pri meraniach dosiahol uspokojivé výsledy ako pri samostatnom balasovaní na mieste tak aj pri riadenom pohybe na rovine a naklonenej plošine. Za účelom riadenia robota bol taktiež skonštruovaný ovládač, umožňujúci komunikáciu operátora s robotom.  
+V tejto práci sme sa venovali popisu činnosti práce pri návrhu a skonštrovaní dvojolesového balansujúceho robota. V úvode práce sme porovnali vlastnosti \ac{PID} a \ac{LQR} regulátora. Z tohto porovnania vyplynulo, že vhodnejší pre naše použitie bude PID regulátor. Následne sme postupovali odvodením matematického modelu robota, ktorý síce v našej práci nebol priamo použitý, ale v prípade ďalších rozšírení robota bude užitočnou pomôckou pri vývoji vhodného regulátora. 
 
-V rámci práce vznikol taktiež matematický model robota, ktorý nebol priamo použitý v práci, ale v prípade potreby môže byť použitý pri návrhu pokročilejších regulátorov ako napríklad LQR. 
+V ďalšej časti práce sme opísali postup výberu jednotlivých komponentov robota aj postup pri vývoji šasi robota. Súčasťou práce je aj stručný opis konštrukcie a fukcionality ovládača, ktorý sme navrhli a vytvorili tak, aby umožňoval pohodlné ovládanie robota, ale aj zobrazovanie relevantných informácií o stave robota.
+
+Kapitola zoaberajúca sa návrhom regulátora zabezpečujúceho balansovanie robota obsahuje okrem opisu konfigurácie nami navrhnutého riadiaceho systému aj informácie o zvolenom postupe pri ladení riadiaceho systému.  
+
+V poslednej časti práce sa venujeme overeniu funkcionality robota a zhodnotením jeho vlastností. Uvádzame parametre robota vystupujúce v nami vytvorenom modeli aj grafy znázorňujúce správanie sa robota počas prevádzky. Nami vyrobený robot pri meraniach dosiahol uspokojivé výsledy pri samostatnom balasovaní na mieste aj pri riadenom pohybe na rovine a naklonenej plošine. Ovládač pracoval spoľahlivo, pričom maximálny dosah riadiaceho signálu sa pohyboval v interéri približne na úrovni $10$ metrov .
+
+Robot môže v súčasnej konfigurácii slúžiť ako učebná pomôcka, demoštrujúca praktické nasadenie PID regulátorov na riadenie nestabilného systému. Taktiež je možné zmenou návrhu riadiaceho systému robota porovnať vlastnosti a efektivitu rôznych druhov regulátorov.
 
